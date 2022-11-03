@@ -12,7 +12,7 @@ description: >- # this means to ignore newlines until
   by a lone idiot.
 
 #LOGO FILE
-logo: logo-moai.png
+logo: nu-logo.png
 
 # BUILD SETTINGS
 remote_theme: b2a3e8/jekyll-theme-console
@@ -21,7 +21,7 @@ plugins:
   - jekyll-feed
 
 # THEME SPECIFIC
-style: ternative
+style: dark
 listen_for_clients_preferred_style: true
 header_pages:
   - index.md
