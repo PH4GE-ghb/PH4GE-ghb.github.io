@@ -1,0 +1,17 @@
+---
+layout: default
+---
+ 
+<div class="post-categories">
+    {% if post %}
+      {% assign categories = post.categories %}
+    {% else %}
+      {% assign categories = page.categories %}
+    {% endif %}
+    {% for category in categories %}
+    <a class="tag_pill" href="{{site.url}}/categories/#{{category|slugize}}">{{category}}</a>
+    {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
+</div>
+
+{{ content }}
