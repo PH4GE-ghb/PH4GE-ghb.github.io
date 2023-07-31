@@ -7,7 +7,7 @@ layout: default
 
 {%- if site.posts.size > 0 -%}
   <ul>
-    {%- for post in site.posts limit:10 -%}
+    {%- for post in site.posts limit:20 -%}
     <li>
       {%- assign date_format = "%Y-%m-%d" -%}
       [ {{ post.date | date: date_format }} ]><a class="home-post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>

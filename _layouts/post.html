@@ -2,6 +2,23 @@
 layout: default
 ---
  
+<div id="archives">
+  {% for category in site.categories %}
+    <div class="archive-group">
+      {% capture category_name %}{{ category | first }}{% endcapture %}
+      <div id="#{{ category_name | slugize }}"></div>
+      <h3 class="category-head">Posts tagged <i>{{ category_name }}</i>:</h3>
+      {% for post in site.categories[category_name] %}
+      <article class="archive-item">
+        {%- assign date_format = "%Y-%m-%d" -%}
+        - [ {{ post.date | date: date_format }} ]><a class="category-item-link" href="{{ site.url }}{{ post.url }}">{{post.title}}</a>
+      </article>
+      {% endfor %}
+    </div>
+  {% endfor %}
+  </div>
+
+
 <div class="post-categories">
     {% if post %}
       {% assign categories = post.categories %}
