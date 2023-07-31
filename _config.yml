@@ -21,7 +21,7 @@ plugins:
   - jekyll-feed
 
 # THEME SPECIFIC
-style: ocean
+style: moai 
 listen_for_clients_preferred_style: true
 header_pages:
   - index.md
