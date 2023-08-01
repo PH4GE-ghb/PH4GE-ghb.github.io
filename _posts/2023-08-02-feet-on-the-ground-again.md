@@ -1,10 +1,8 @@
 ---
-
 layout: post
 title: "Feet on the ground again"
 date: 2023-08-02 01:14:00 +0100
 categories: rambling personal-development 
-
 ---
 
 It's been a while since I've touched base on a lot of different fronts. Front #1 being this blog obviously. There a reasons for that.
