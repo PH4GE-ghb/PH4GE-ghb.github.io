@@ -12,7 +12,7 @@ description: >- # this means to ignore newlines until
   by a lone idiot.
 
 #LOGO FILE
-logo: bacto-banner.png
+logo: bw-bacto-banner.png
 
 # BUILD SETTINGS
 remote_theme: b2a3e8/jekyll-theme-console
@@ -25,7 +25,7 @@ style: ocean
 listen_for_clients_preferred_style: true
 header_pages:
   - index.md
-  - categories.md
+#  - categories.md
   - about.md
 footer: 'PH4GE - find me on <a rel="me" href="https://myopic.one/web/@PH4GE">Mastodon</a>'
 rss: 'rss'
