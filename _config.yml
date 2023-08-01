@@ -25,7 +25,7 @@ style: ocean
 listen_for_clients_preferred_style: true
 header_pages:
   - index.md
-#  - categories.md
+  - categories.html
   - about.md
 footer: 'PH4GE - find me on <a rel="me" href="https://myopic.one/web/@PH4GE">Mastodon</a>'
 rss: 'rss'
