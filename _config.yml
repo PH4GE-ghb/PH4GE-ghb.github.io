@@ -12,7 +12,7 @@ description: >- # this means to ignore newlines until
   by a lone idiot.
 
 #LOGO FILE
-logo: bw-bacto-banner.png
+logo: ph4ge-banner.png
 
 # BUILD SETTINGS
 remote_theme: b2a3e8/jekyll-theme-console
