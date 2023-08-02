@@ -15,6 +15,7 @@ description: >- # this means to ignore newlines until
 logo: ph4ge-banner.png
 
 # BUILD SETTINGS
+future: true
 remote_theme: b2a3e8/jekyll-theme-console
 permalink: /:categories/:title/
 plugins:
