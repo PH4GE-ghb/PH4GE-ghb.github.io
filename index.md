@@ -4,4 +4,4 @@ title: home
 permalink: /
 ---
 
-An esoteric collection of musings, art, projects and scribbles created by a lone idiot.
+An esoteric collection of musings, projects and internal dialogues I feel the need to document.
